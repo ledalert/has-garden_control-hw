@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name micro_usb_b)(type KiCad)(uri "$(KIPRJMOD)/micro_usb_b.pretty")(options "")(descr ""))
+  (lib (name w_conn_jst-ph)(type Legacy)(uri "$(KIPRJMOD)/w_conn_jst-ph.mod")(options "")(descr ""))
+  (lib (name w_smd_qfn)(type KiCad)(uri "$(KIPRJMOD)/w_smd_qfn.pretty")(options "")(descr ""))
+  (lib (name dhvqfn14)(type KiCad)(uri "$(KIPRJMOD)/dhvqfn14.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,173 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:stm32
+LIBS:vreg
+LIBS:ft231x
+LIBS:usb_micro_b
+LIBS:w_connectors
+LIBS:ver1-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 14 19
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C C32
+U 1 1 55F3618D
+P 3300 2750
+AR Path="/55F35C70/55F36184/55F3618D" Ref="C32"  Part="1" 
+AR Path="/55F35C70/55F3EEA3/55F3618D" Ref="C33"  Part="1" 
+AR Path="/55F35C70/55F3F274/55F3618D" Ref="C34"  Part="1" 
+AR Path="/55F35C70/55F3F7AD/55F3618D" Ref="C35"  Part="1" 
+AR Path="/55F35C70/55F3FC82/55F3618D" Ref="C36"  Part="1" 
+AR Path="/55F35C70/55F4007B/55F3618D" Ref="C37"  Part="1" 
+F 0 "C37" H 3300 2850 40  0000 L CNN
+F 1 "100nF 35V" H 3306 2665 40  0000 L CNN
+F 2 "SMD_Packages:SMD-0603_c" H 3338 2600 30  0001 C CNN
+F 3 "" H 3300 2750 60  0000 C CNN
+	1    3300 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L FET_N Q2
+U 1 1 55F361D5
+P 4600 2350
+AR Path="/55F35C70/55F36184/55F361D5" Ref="Q2"  Part="1" 
+AR Path="/55F35C70/55F3EEA3/55F361D5" Ref="Q3"  Part="1" 
+AR Path="/55F35C70/55F3F274/55F361D5" Ref="Q4"  Part="1" 
+AR Path="/55F35C70/55F3F7AD/55F361D5" Ref="Q5"  Part="1" 
+AR Path="/55F35C70/55F3FC82/55F361D5" Ref="Q6"  Part="1" 
+AR Path="/55F35C70/55F4007B/55F361D5" Ref="Q7"  Part="1" 
+F 0 "Q7" H 4503 2600 70  0000 C CNN
+F 1 "FET_N" H 4453 2103 60  0000 C CNN
+F 2 "SMD_Packages:SOT-23-GDS" H 4600 2350 60  0001 C CNN
+F 3 "" H 4600 2350 60  0000 C CNN
+	1    4600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R29
+U 1 1 55F361FC
+P 4200 2700
+AR Path="/55F35C70/55F36184/55F361FC" Ref="R29"  Part="1" 
+AR Path="/55F35C70/55F3EEA3/55F361FC" Ref="R30"  Part="1" 
+AR Path="/55F35C70/55F3F274/55F361FC" Ref="R31"  Part="1" 
+AR Path="/55F35C70/55F3F7AD/55F361FC" Ref="R32"  Part="1" 
+AR Path="/55F35C70/55F3FC82/55F361FC" Ref="R33"  Part="1" 
+AR Path="/55F35C70/55F4007B/55F361FC" Ref="R34"  Part="1" 
+F 0 "R34" V 4280 2700 40  0000 C CNN
+F 1 "10kΩ" V 4207 2701 40  0000 C CNN
+F 2 "SMD_Packages:SMD-0603_r" V 4130 2700 30  0001 C CNN
+F 3 "" H 4200 2700 30  0000 C CNN
+	1    4200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODESCH D13
+U 1 1 55F3621C
+P 4900 2350
+AR Path="/55F35C70/55F36184/55F3621C" Ref="D13"  Part="1" 
+AR Path="/55F35C70/55F3EEA3/55F3621C" Ref="D14"  Part="1" 
+AR Path="/55F35C70/55F3F274/55F3621C" Ref="D15"  Part="1" 
+AR Path="/55F35C70/55F3F7AD/55F3621C" Ref="D16"  Part="1" 
+AR Path="/55F35C70/55F3FC82/55F3621C" Ref="D17"  Part="1" 
+AR Path="/55F35C70/55F4007B/55F3621C" Ref="D18"  Part="1" 
+F 0 "D18" H 4900 2450 40  0000 C CNN
+F 1 "DIODESCH" H 4900 2250 40  0000 C CNN
+F 2 "Diodes_SMD:Diode-SMA_Standard" H 4900 2350 60  0001 C CNN
+F 3 "" H 4900 2350 60  0000 C CNN
+	1    4900 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR058
+U 1 1 55F3635B
+P 4750 3250
+AR Path="/55F35C70/55F36184/55F3635B" Ref="#PWR058"  Part="1" 
+AR Path="/55F35C70/55F3EEA3/55F3635B" Ref="#PWR059"  Part="1" 
+AR Path="/55F35C70/55F3F274/55F3635B" Ref="#PWR060"  Part="1" 
+AR Path="/55F35C70/55F3F7AD/55F3635B" Ref="#PWR061"  Part="1" 
+AR Path="/55F35C70/55F3FC82/55F3635B" Ref="#PWR062"  Part="1" 
+AR Path="/55F35C70/55F4007B/55F3635B" Ref="#PWR063"  Part="1" 
+F 0 "#PWR063" H 4750 3250 30  0001 C CNN
+F 1 "GND" H 4750 3180 30  0001 C CNN
+F 2 "" H 4750 3250 60  0000 C CNN
+F 3 "" H 4750 3250 60  0000 C CNN
+	1    4750 3250
+	1    0    0    -1  
+$EndComp
+Text HLabel 5050 1900 2    60   Input ~ 0
+LOAD_SINK
+Text HLabel 5050 1550 2    60   Input ~ 0
+LOAD_VDD
+Text HLabel 4050 2350 0    60   Input ~ 0
+LOAD_EN
+Wire Wire Line
+	4750 2700 4750 3250
+Wire Wire Line
+	4900 3150 4900 2550
+Wire Wire Line
+	4750 2000 4750 1900
+Wire Wire Line
+	4900 1900 4900 2150
+Wire Wire Line
+	4050 2350 4300 2350
+Wire Wire Line
+	4200 2350 4200 2450
+Wire Wire Line
+	4200 2950 4200 3150
+Wire Wire Line
+	3300 3150 4900 3150
+Connection ~ 4750 3150
+Connection ~ 4900 1900
+Connection ~ 4200 3150
+Connection ~ 4200 2350
+Text Notes 3100 1150 0    60   ~ 0
+This sheet could be hooked up with a 3 terminal output\nSo you can feed in supply and hook up a solenoid or so
+Wire Wire Line
+	3300 1550 3300 2550
+Wire Wire Line
+	3300 3150 3300 2950
+Wire Wire Line
+	5050 1550 3300 1550
+Wire Wire Line
+	4750 1900 5050 1900
+$EndSCHEMATC
